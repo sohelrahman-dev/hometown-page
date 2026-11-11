@@ -1,0 +1,205 @@
+/* GENERAL SECTION */
+body {
+  text-align: center;
+  background-color: #F7F5EF;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Young Serif", serif;
+}
+
+p,
+li,
+.list-head {
+  font-family: "Platypi", serif;
+  font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero-section {
+  border-bottom: 12px solid #C49A52;
+  padding: 100px 0px 270px 20px;
+  background-image: url(images/mainimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -8px -8px 50px -8px;
+}
+
+.hero-section h1 {
+  background-color: #142d4e81;
+  color: #C49A52;
+  display: inline;
+  border-radius: 20px;
+  padding: 10px 25px 9px 25px;
+  font-size: 65px;
+}
+
+.hero-section p {
+  background-color: #142d4e81;
+  color: #C49A52;
+  max-width: 500px;
+  margin: 35px auto;
+  border-radius: 20px;
+  padding: 10px 25px 12px 25px;
+}
+
+/* ACTIVITY SECTION */
+.activity-header {
+  font-size: 90px;
+  margin: 150px 0px 50px 0px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  padding: 10px 40px 20px 40px;
+}
+
+.activities h3 {
+  font-size: 28px;
+}
+
+.activities p {
+  font-size: 17px;
+  padding: 0px 30px;
+}
+
+.activity {
+  margin: 50px 0px 0px 0px;
+  flex: 1;
+  transition:
+    transform 0.5s ease
+}
+
+.activity:hover {
+  transform: scale(1.05);
+}
+
+.activities img {
+  width: 300px;
+  border-radius: 90px;
+}
+
+/* GUIDE SECTION */
+.guide {
+  background: #252B33;
+  color: #F7F5EF;
+  border-bottom: 15px solid #C49A52;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto -100px auto;
+  width: 800px;
+  padding: 30px 20px 30px 50px;
+  border-radius: 30px;
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.guide:hover {
+  box-shadow: 0px 0px 20px #000000;
+  transform: scale(1.05);
+}
+
+.guide-detail {
+  text-align: center;
+  padding: 0px 0px 0px 50px;
+  margin: 10px 20px;
+}
+
+.guide-info h1 {
+  font-size: 50px;
+  color: #C49A52;
+}
+
+.guide-info h3 {
+  color: #C49A52;
+}
+
+.guide-info p {
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+.guide img {
+  width: 360px;
+  border-radius: 17px;
+  margin: -5px 0px -8px -30px;
+}
+
+/* SOCIAL MEDIA LINK SECTION */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0px 0px 0px;
+}
+
+.social-link {
+  border: 2px solid #C49A52;
+  background: #252B33;
+  color: #C49A52;
+  padding: 12px 25px 11px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.social-link:hover {
+  background: #C49A52;
+  color: #252B33;
+}
+
+/* FOOTER SECTION */
+footer {
+  background: #252B33;
+  color: #F7F5EF;
+  border-top: 12px solid #C49A52;
+  margin: 200px -8px -90px -8px;
+}
+
+footer h2 {
+  color: #f7f5ef4d;
+  font-size: 30px;
+  padding: 20px 0px 30px 0px;
+}
+
+footer h3 {
+  color: #C49A52;
+  font-size: 30px;
+  padding: 50px 0px 40px 0px;
+
+}
+
+footer h4 {
+  color: #C49A52;
+  margin: 0px 0px -8px 0px;
+
+}
+
+footer a {
+  color: #f7f5ef4d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #C49A52;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  padding: 0px 150px 0px 150px;
+  text-align: left;
+}
+
+.list {
+  flex: 1;
+}
